@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Owl-Carousel Slider | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="stp.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+
+<body style="background-color:#b3a0a047;">
+    <h1 style="font-size: 51px;">Founders and team</h1>
+    <div class="wrapper">
+        <div class="carousel owl-carousel">
+            <div class="card">
+                <img src="https://source.unsplash.com/random/user" alt="image" height="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores?</p>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/random/crowd" alt="image" height="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores?</p>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/random/man" alt="image" height="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores?</p>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/random/man" alt="image" height="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores?</p>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/random/man" alt="image" height="300px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dolores?</p>
+            </div>
+        </div>
+    </div>
+    <h1 style="font-size: 51px;">Their unique value proposition</h1>
+    <div class="conatiner">
+        <div class="row">
+
+            <div class="col-md-6 sec-one"><img src="file:///C:/Users/HP/Desktop/sam.jpeg" alt="" width="100%"
+                    height="auto">
+            </div>
+
+            <div class="col-md-6 sec-two">
+                <p>Solarify Management is very professional, trusted, committed to work and stick to the deliverables.
+                    Their end to end project execution is so well planned. Their follow up is excellent and it is very
+                    much appreciated for their efforts till commissioning of the project. We The Pariwar palace
+                    apartment situated in Devarachickana halli has installed 16KW at present and has configuration of
+                    Vikram mono crystalline solar panels with solar edge inverter and optimizer. This combination has
+                    been generated maximum 6.11 units per KW as on today i.e. during Jan to Feb 2020 season. We hope (
+                    are sure ) the maximum generation may reach to 6.3 units / kw. Let us wait and watch.Obviously Kudos
+                    the whole Solarify team specially Sharath and Santhosh Joshi and they desires the great
+                    appreciation-Vikram mono crystalline solar panels with solar edge inverter and optimizer.</p>
+            </div>
+        </div>
+    </div>
+    <div class="sec-three">
+        <h1 style="font-size: 51px;">Their origin story</h1>
+        <p>
+            In 2016, a young engineer, began his journey of – providing people easy access to solar power. He took the
+            leaptowards realising his vision by starting Solarify. One person with a dream so big? In a sector dominated by
+            giants like TATA and Adani, the challenges of starting up made the dream even bigger.
+        </p>
+    </div>
+    <div>
+        <h1 style=" font-size: 51px">Contact details </h1>
+        <section class="contact" id="contact">
+            <div class="form">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your name">
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+                <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+                    placeholder="Ellaborate your concern"></textarea>
+                <button class="btn btn-sm btn-dark">Submit</button>
+            </div>
+        </section>
+        
+    </div>
+    <script>
+        $(".carousel").owlCarousel({
+            margin: 20,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: false
+                }
+            }
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
